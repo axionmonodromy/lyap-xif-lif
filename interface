@@ -1,0 +1,4 @@
+# deletes the first 12 lines from the standard output of the network simulation
+
+./network_sim/a.out>out.1 $(<parameters.txt) InitVolt.txt JMatrix.txt Gamma.dat VInf.dat
+sed -e '1,12d' out.1 > output.txt

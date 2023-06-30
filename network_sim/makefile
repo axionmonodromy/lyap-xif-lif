@@ -1,0 +1,2 @@
+sim: main.cpp lifdelta.cpp lifdeltanetwork.cpp jmatrix.cpp spiketrain.cpp spike.cpp networkdynioutilities.cpp
+	g++ main.cpp lifdelta.cpp lifdeltanetwork.cpp jmatrix.cpp spiketrain.cpp spike.cpp networkdynioutilities.cpp -lgsl -lgslcblas -lm 
